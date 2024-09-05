@@ -9,12 +9,17 @@ public class ExD5 {
         Scanner scanf = new Scanner(System.in);
 
         System.out.println("Informe um número inteiro: ");
-        int numero = scanf.nextInt();
+        int numero = scanf.nextInt(), contador = 0;
 
-        if((numero > -4 && numero < 4) || numero % 2 != 0 && numero % 3 != 0)
-            System.out.println("É primo!");
-        else
+        for(int i = 1; i <= numero; i++){
+            if (numero % i == 0)
+                contador++;
+        }
+
+        if (contador > 2)
             System.out.println("Não é primo!");
+        else    
+            System.out.println("É primo!");
+        
     }
 }
-
