@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Q2maiorDe2Numeros {
+public class maiorDe2Numeros {
     public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
 
