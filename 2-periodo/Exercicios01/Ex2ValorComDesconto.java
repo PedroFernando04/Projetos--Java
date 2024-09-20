@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex2 {
+public class Ex2ValorComDesconto {
     public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
         float valor, desconto = 0.85f;
