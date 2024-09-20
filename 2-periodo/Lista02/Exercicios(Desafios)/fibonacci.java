@@ -3,7 +3,7 @@
  Faça um programa que gere a série até que o valor seja maior que 500.
  */
 
-public class ExD1 {
+public class fibonacci {
     public static void main(String[] args) {
         int i = 0, auxiliar = 1, fibo;
 
