@@ -15,7 +15,7 @@ Caso contrário, ela será classificado como "Inocente"
  */
 import java.util.Scanner;
 
-public class Q7 {
+public class interrogatorio {
     public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
         String[] perguntas = {"Telefonou para a vítima?", "Esteve no local do crime?", "Mora perto da vítima?", "Devia para a vítima?", "Já trabalhou para a vítima?"};
