@@ -5,7 +5,7 @@ o maior valor e a soma dos valores
 
 import java.util.Scanner;
 
-public class ExD2 {
+public class maiorMenorSoma {
     public static void main(String[] args){
         Scanner scanf = new Scanner(System.in);
 
