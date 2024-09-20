@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Rev01_4 {
+public class celsiusFahrenheit {
     public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
 
