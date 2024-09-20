@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class Q1 {
+public class Q1ParOuImpar {
     public static void main(String[] args){
         Scanner scanf = new Scanner(System.in);
     
