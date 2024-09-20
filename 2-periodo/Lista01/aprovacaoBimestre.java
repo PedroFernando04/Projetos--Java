@@ -8,7 +8,7 @@ a média alcançada por um aluno e apresentar:
 
  import java.util.Scanner;
 
-public class Q4 {
+public class aprovacaoBimestre {
     public static void main(String[] args){
         Scanner scanf = new Scanner(System.in);
 
