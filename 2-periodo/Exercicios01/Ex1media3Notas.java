@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex1Media3Notas {
+public class Ex1media3Notas {
     public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
         float notas = 0f;
