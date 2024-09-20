@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class ExB3 {
+public class whileSoma {
     public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
         
