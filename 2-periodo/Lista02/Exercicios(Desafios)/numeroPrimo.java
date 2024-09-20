@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class ExD5 {
+public class numeroPrimo {
     public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
 
