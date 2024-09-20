@@ -7,7 +7,7 @@ conforme o caso"
 
 import java.util.Scanner;
 
-public class Q6 {
+public class saudacaoPorTurno {
     public static void main(String[] args){
         Scanner scanf = new Scanner(System.in);
 
