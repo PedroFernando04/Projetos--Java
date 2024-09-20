@@ -10,7 +10,7 @@
 
  import java.util.Scanner;
 
-public class ExD4 {
+public class validacaoFormulario {
    public static void main(String[] args) {
       Scanner scanf = new Scanner(System.in);
       String nome;
