@@ -10,7 +10,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Rev01_1{
+public class paresImpares{
     public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
 
