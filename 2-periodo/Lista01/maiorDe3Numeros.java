@@ -4,7 +4,7 @@ Faça um programa que leia três números e mostre o maior deles
 
 import java.util.Scanner;
 
-public class Q5 {
+public class maiorDe3Numeros {
     public static void main(String[] args){
         Scanner scanf = new Scanner(System.in);
 
