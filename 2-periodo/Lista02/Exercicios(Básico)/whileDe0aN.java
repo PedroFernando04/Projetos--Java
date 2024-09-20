@@ -2,7 +2,7 @@
 inserido pelo usuário*/
 import java.util.Scanner;
 
-public class ExB2 {
+public class whileDe0aN {
     public static void main(String[] args){
         Scanner scanf = new Scanner(System.in);
         
