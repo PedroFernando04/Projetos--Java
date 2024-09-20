@@ -13,7 +13,7 @@
  */
 import java.util.Scanner;
 
-public class Rev01_3 {
+public class dobroDe1aN {
     public static void main(String[] args){
         Scanner scanf = new Scanner(System.in);
 
