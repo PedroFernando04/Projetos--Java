@@ -50,4 +50,34 @@ public static double somar(double n1, double n2){
         }
     }
     
+//Q4
+
+    public static double calculadora(double n1, double n2, String operacao){
+        Scanner scanf = new Scanner(System.in);
+
+            switch(operacao){
+                case("1"):
+                    return n1 + n2;
+                case("2"):
+                    return n1 - n2;
+                case("3"):
+                    return n1 * n2;
+                case("4"):
+                    if(n2 != 0)
+                        return n1 / n2;
+                    else{
+                        System.out.println("\nERRO: Divisão por 0");
+                        System.out.print("\nInforme o 2° valor novamente: ");
+                        n2 = scanf.nextDouble();
+                        return calculadora(n1, n2, operacao);
+                    }
+                default:
+                    System.out.println("ERROR 404");
+                    return 1;
+            }
+    }
+
+//Q5
+
+
     */
