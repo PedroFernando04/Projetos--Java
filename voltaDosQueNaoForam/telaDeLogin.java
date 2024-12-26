@@ -6,7 +6,6 @@ public class telaDeLogin {
         Scanner scanf = new Scanner(System.in);
 
         while (true) {
-            limpar();
             System.out.println("Informe o que deseja fazer:\n"); 
             System.out.println("1 - Casdastrar\n2 - Logar\n3 - Sair\n");
             int opc = verificadorDeInteiro(scanf);
@@ -30,8 +29,8 @@ public class telaDeLogin {
             }
 
             else{
-                System.err.println("Valor inválido!\n");
-                delay(scanf);
+                System.out.println("Valor inválido!\n");
+                
             }
         }
     }
