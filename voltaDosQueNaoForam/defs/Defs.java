@@ -32,5 +32,6 @@ public class Defs {
 
     public static void delay(Scanner scanf){
         scanf.nextLine();
+        limpar();
     }
 }
