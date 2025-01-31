@@ -1,3 +1,4 @@
+//https://judge.beecrowd.com/pt/problems/view/1168
 import java.util.Scanner;
 
 public class leds {
