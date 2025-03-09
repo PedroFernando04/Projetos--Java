@@ -42,9 +42,9 @@ class pilhaEncadeada
     {
         boolean vazio = isEmpty();
 
-        if(vazio == false)
+        if(!vazio)
         {
-            System.out.println("item removido: " + inicio.valor);
+            System.out.println("item removido: " + inicio.valor + "\n");
             inicio = inicio.proximo;
             tamanho--;
         }
@@ -52,23 +52,22 @@ class pilhaEncadeada
 
     void peek()
     {
-        System.out.println("Topo atual: " + inicio.valor);
+        System.out.println("Topo atual: " + inicio.valor + "\n");
     }
 
     boolean isEmpty()
     {
         if(inicio == null)
         {
-            System.out.println("Pilha vazia!");
+            System.out.println("Pilha vazia!\n");
             return true;
         }
         
         else
         {
-            System.out.println("Pilha com " + tamanho + " elemento(s)");
+            System.out.println("Pilha com " + tamanho + " elemento(s)\n");
             return false;
         }
-        
     }
 
     void exibir()
@@ -98,7 +97,6 @@ public class Q3
         pilha.push("FNX");
 
         pilha.exibir();
-        pilha.isEmpty();
         pilha.peek();
         pilha.pop();
 
