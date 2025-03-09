@@ -88,7 +88,7 @@ public class Q3
     {
         pilhaEncadeada pilha = new pilhaEncadeada();
 
-        pilha.isEmpty();
+        pilha.pop();
 
         pilha.push("FalleN");
         pilha.push("Fer");
