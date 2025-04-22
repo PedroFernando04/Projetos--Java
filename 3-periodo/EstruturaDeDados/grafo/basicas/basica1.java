@@ -56,9 +56,7 @@ public class basica1{
         grafo1.adicionarAresta("E", "A");
         grafo1.adicionarAresta("A", "Z");
         grafo1.adicionarAresta("A", "D");
-        
-
-        System.out.println("\n");
+    
 
         grafo1.exibir();
     }
