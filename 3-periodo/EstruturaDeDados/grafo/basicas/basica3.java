@@ -62,8 +62,6 @@ public class basica3{
         grafo1.adicionarAresta("A", "D");
         
 
-        System.out.println("\n");
-
         grafo1.exibirVizinhos("A");
     }
 }
