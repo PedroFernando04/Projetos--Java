@@ -11,7 +11,7 @@ public Grafo(){
     void adicionarVertice(String Vertice){
         if(!grafo.containsKey(Vertice)){
         grafo.put(Vertice, new ArrayList());
-        System.out.println("\nVértice \"" + Vertice + "\" adiconado com sucesso!");
+        System.out.println("\nVértice \"" + Vertice + "\" adicionado com sucesso!");
         }
 
         else
