@@ -58,8 +58,6 @@ public class basica2{
         grafo1.adicionarAresta("A", "D");
         
 
-        System.out.println("\n");
-
         grafo1.exibir();
     }
 }
