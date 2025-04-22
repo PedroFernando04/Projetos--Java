@@ -52,6 +52,11 @@ public Grafo(){
         System.out.println("\nPelo menos um de seus vértices(\"" + Vertice1 + "\" e \"" + Vertice2 + "\") não existe.\nVerifique e tente novamente\n");
     }
     void removerVertice (String Vertice){
+        if (!grafo.containsKey(Vertice)) {
+            System.out.println("\nVértice \"" + Vertice + "\" não existe.");
+            return;
+        }
+        
         for(String chave : grafo.keySet()){
             if(grafo.get(chave).contains(Vertice))
             grafo.get(chave).remove(Vertice);
