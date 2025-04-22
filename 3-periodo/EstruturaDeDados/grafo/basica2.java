@@ -10,11 +10,11 @@ public Grafo(){
     void adicionarVertice(String Vertice){
         if(!grafo.containsKey(Vertice)){
         grafo.put(Vertice, new ArrayList());
-        System.out.println("\nVértice \"" + Vertice + "\" adicionado com sucesso!");
+        System.out.println("Vértice \"" + Vertice + "\" adicionado com sucesso!");
         }
 
         else
-        System.out.println("\nO vértice \"" + Vertice + "\" já existe");
+        System.out.println("O vértice \"" + Vertice + "\" já existe");
     }
 
     void adicionarAresta(String inicio, String fim){
