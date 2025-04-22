@@ -76,8 +76,6 @@ public class basica4{
         grafo1.adicionarAresta("A", "D");
         
 
-        System.out.println("\n");
-
         grafo1.ligação("A", "B");
     }
 }
