@@ -76,7 +76,7 @@ public Grafo(){
         for(String chave : grafo.keySet()){
             arestas += grafo.get(chave).size();
         }
-        System.out.print("Arestas: " + arestas);
+        System.out.print("Arestas: " + arestas/2);
     }
 }
 
