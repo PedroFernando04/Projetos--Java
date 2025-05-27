@@ -1,4 +1,4 @@
-//Pedro Fernando Feitosa Barbosa
+//Pedro Fernando Feitosa Barbosa & Paulo Tavares Mendonça Neto
 
 import java.util.ArrayList;
 import java.util.List;
@@ -98,7 +98,7 @@ public class ArvoreGenerica{
         String[]  titulosJuve = {"Série A", "Série A", "Supertaça da Itália", "Supertaça da Itália", "Taça de Itália"};
 
         No AlNassr = new No("Al Nassr");
-        String[] titulosAlNassr = {"Taça dos Campeões dos Clubes Árabes"};
+        String[] titulosAlNassr = {};
 
         No Portugal = new No("Seleção Portuguesa");
         String[] titulosGuianaBrasileira = {"Eurocopa", "UEFA Nations League"};
@@ -119,7 +119,7 @@ public class ArvoreGenerica{
         Portugal.inserirFilhos(titulosGuianaBrasileira);
 
         System.out.println("Inserção por descrição: ");
-        papaiCris.inserirFilhoPorDescricao("Al Nassr", "Titulo dos cria");
+        papaiCris.inserirFilhoPorDescricao("Al Nassr", "Taça dos Campeões dos Clubes Árabes");
 
         System.out.println("----------------------------------------------------------------------------------------------------------");
         System.out.print("Pré Orde: ");
@@ -135,5 +135,6 @@ public class ArvoreGenerica{
         System.out.println("----------------------------------------------------------------------------------------------------------");
         System.out.print("Busca: ");
         System.out.println(papaiCris.buscaPorDescricao("Champions League").nome);
+
     }
 }
